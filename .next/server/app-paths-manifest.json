@@ -1,11 +1,9 @@
 {
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/contact/page": "app/contact/page.js",
-  "/changelog/page": "app/changelog/page.js",
-  "/password/page": "app/password/page.js",
-  "/digital-agency/project/page": "app/digital-agency/project/page.js",
-  "/digital-agency/project/[slug]/page": "app/digital-agency/project/[slug]/page.js",
-  "/portfolio/projects/page": "app/portfolio/projects/page.js"
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/portfolio/projects/page": "app/portfolio/projects/page.js",
+  "/faq/page": "app/faq/page.js",
+  "/portfolio/projects/[slug]/page": "app/portfolio/projects/[slug]/page.js"
 }
