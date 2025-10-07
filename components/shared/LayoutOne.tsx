@@ -9,7 +9,7 @@ const LayoutOne = ({
 }>) => {
   return (
     <Fragment>
-      {/* <Navbar /> */}
+      <Navbar />
       <main className="relative z-10 bg-backgroundBody dark:bg-dark lg:mb-[600px]">{children}</main>
       {/* <Footer /> */}
     </Fragment>

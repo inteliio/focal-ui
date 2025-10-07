@@ -1,15 +1,14 @@
-'use client'
-import useReveal from '@/hooks/useReveal'
-import RevealWrapper from '../animation/RevealWrapper'
-import CompanyLogosMarquee from '../homepage-02/CompanyLogosMarquee'
-import CircleTextAnimation from './CircleTextAnimation'
+"use client";
+import useReveal from "@/hooks/useReveal";
+import RevealWrapper from "../animation/RevealWrapper";
+import CircleTextAnimation from "./CircleTextAnimation";
 
 interface AboutProps {
-  marquee?: boolean
+  marquee?: boolean;
 }
 
 const About = ({ marquee = false }: AboutProps) => {
-  const { revealRef } = useReveal()
+  const { revealRef } = useReveal();
 
   if (marquee) {
     return (
@@ -17,8 +16,7 @@ const About = ({ marquee = false }: AboutProps) => {
         <div className="container">
           <RevealWrapper>
             <h3 className="pb-10 sm:pb-20" ref={revealRef}>
-              We provide customized solutions for enhancing your existing site or building a brand-new digital platform
-              from the ground up.
+              We provide customized solutions for enhancing your existing site or building a brand-new digital platform from the ground up.
             </h3>
           </RevealWrapper>
           <RevealWrapper>
@@ -30,12 +28,12 @@ const About = ({ marquee = false }: AboutProps) => {
               <div className="absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-backgroundBody to-transparent dark:from-dark"></div>
               <div className="absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-backgroundBody to-transparent dark:from-dark"></div>
 
-              <CompanyLogosMarquee />
+              {/* <CompanyLogosMarquee /> */}
             </RevealWrapper>
           </div>
         </div>
       </section>
-    )
+    );
   }
 
   return (
@@ -50,12 +48,11 @@ const About = ({ marquee = false }: AboutProps) => {
             <br />
             <br />
             We provide customized solutions for <br className="hidden sm:block" />
-            enhancing your existing site or building <br className="hidden sm:block" />a brand-new digital platform from
-            the ground up
+            enhancing your existing site or building <br className="hidden sm:block" />a brand-new digital platform from the ground up
           </h3>
         </div>
       </div>
     </section>
-  )
-}
-export default About
+  );
+};
+export default About;

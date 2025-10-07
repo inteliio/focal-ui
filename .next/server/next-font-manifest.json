@@ -4,7 +4,35 @@
       "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
       "static/media/Satoshi_Regular-s.p.d967cd81.woff"
     ],
+    "[project]/app/about/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
     "[project]/app/_not-found/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
+    "[project]/app/contact/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
+    "[project]/app/changelog/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
+    "[project]/app/password/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
+    "[project]/app/digital-agency/project/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
+    "[project]/app/digital-agency/project/[slug]/page": [
+      "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
+      "static/media/Satoshi_Regular-s.p.d967cd81.woff"
+    ],
+    "[project]/app/portfolio/projects/page": [
       "static/media/Satoshi_Medium-s.p.e2210dbf.woff",
       "static/media/Satoshi_Regular-s.p.d967cd81.woff"
     ]
