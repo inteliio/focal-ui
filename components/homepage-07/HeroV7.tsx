@@ -13,7 +13,7 @@ const HeroV7 = () => {
 
       <RevealWrapper className="mx-auto max-w-screen-xl px-5">
         <div>
-          <h1 className="font-normal max-lg:text-center xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">Focal Studio — Каде што дизајнот добива насока, а просторот карактер.</h1>
+          <h2 className="font-normal max-lg:text-center xl:leading-[1.3] xl:tracking-[-2.88px]">Focal Studio — Каде што дизајнот добива насока, а просторот карактер.</h2>
         </div>
 
         <p className="mt-10 max-w-[770px] font-normal max-lg:mx-auto">Чекор по чекор до вашиот идеален простор</p>
