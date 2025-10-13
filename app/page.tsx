@@ -1,10 +1,10 @@
 import HeroV7 from "@/components/homepage-07/HeroV7";
 import OurWork from "@/components/homepage-07/OurWork";
-// import ProcessV4 from "@/components/homepage-07/ProcessV4";
+import ProcessV4 from "@/components/homepage-07/ProcessV4";
 // import CTA from "@/components/shared/CTA";
 // import CtaImageSlider from "@/components/shared/CtaImageSlider";
 import LayoutOne from "@/components/shared/LayoutOne";
-// import ServicesV6 from "@/components/shared/ServicesV6";
+import ServicesV6 from "@/components/shared/ServicesV6";
 
 export const metadata = {
   title: "Design Studio - Focal",
@@ -14,9 +14,9 @@ const page = () => {
   return (
     <LayoutOne>
       <HeroV7 />
-      {/* <OurWork /> */}
+      <OurWork />
       {/* <ServicesV6 /> */}
-      {/* <ProcessV4 /> */}
+      <ProcessV4 />
       {/* <CTA showContactForm>
         Let’s
         <CtaImageSlider

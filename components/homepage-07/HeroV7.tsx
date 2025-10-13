@@ -13,20 +13,10 @@ const HeroV7 = () => {
 
       <RevealWrapper className="mx-auto max-w-screen-xl px-5">
         <div>
-          <h1 className="font-normal max-lg:text-center xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">
-            Focal Studio
-            <CtaImageSlider
-              slides={[
-                { id: "1", img: "/images/agent/01.jpg" },
-                { id: "2", img: "/images/agent/02.jpg" },
-                { id: "3", img: "/images/agent/03.jpg" },
-              ]}
-            />
-            Interrior Design, We Shape your new home
-          </h1>
+          <h1 className="font-normal max-lg:text-center xl:text-[96px] xl:leading-[1.3] xl:tracking-[-2.88px]">Focal Studio — Каде што дизајнот добива насока, а просторот карактер.</h1>
         </div>
 
-        <p className="mt-10 max-w-[770px] font-normal max-lg:mx-auto">As a agency we are working on client projects</p>
+        <p className="mt-10 max-w-[770px] font-normal max-lg:mx-auto">Чекор по чекор до вашиот идеален простор</p>
       </RevealWrapper>
 
       <SkewMarquee />

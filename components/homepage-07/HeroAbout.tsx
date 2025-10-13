@@ -18,7 +18,7 @@ const HeroAbout = ({ spacingTop }: PropsTypes) => {
     </RevealWrapper>
   ) : (
     <RevealWrapper as="section" className="container">
-      <h3 ref={revealRef}>We specialize in designing cutting-edge interrior experiences that flawlessly blend creativity with innovative technology.</h3>
+      <h3 ref={revealRef}>Во Focal Studio веруваме дека секој простор има своја приказна. Нашата цел е таа приказна да ја обликуваме во дизајн што ќе инспирира, смирува и ќе ја одрази вашата личност.</h3>
     </RevealWrapper>
   );
 };

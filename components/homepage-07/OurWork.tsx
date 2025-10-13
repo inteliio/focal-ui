@@ -1,28 +1,28 @@
-import image01 from '@/public/images/marquee-img/our-work-01.png'
-import image02 from '@/public/images/marquee-img/our-work-02.png'
-import image03 from '@/public/images/marquee-img/our-work-03.png'
-import image04 from '@/public/images/marquee-img/our-work-04.png'
-import image05 from '@/public/images/marquee-img/our-work-05.png'
-import image06 from '@/public/images/marquee-img/our-work-06.png'
-import image07 from '@/public/images/marquee-img/our-work-07.png'
-import image08 from '@/public/images/marquee-img/our-work-08.png'
-import image09 from '@/public/images/marquee-img/our-work-09.png'
-import Image from 'next/image'
-import Marquee from 'react-fast-marquee'
-import RevealWrapper from '../animation/RevealWrapper'
-import TextAppearAnimation from '../animation/TextAppearAnimation'
+import image01 from "@/public/images/marquee-img/our-work-01.png";
+import image02 from "@/public/images/marquee-img/our-work-02.png";
+import image03 from "@/public/images/marquee-img/our-work-03.png";
+import image04 from "@/public/images/marquee-img/our-work-04.png";
+import image05 from "@/public/images/marquee-img/our-work-05.png";
+import image06 from "@/public/images/marquee-img/our-work-06.png";
+import image07 from "@/public/images/marquee-img/our-work-07.png";
+import image08 from "@/public/images/marquee-img/our-work-08.png";
+import image09 from "@/public/images/marquee-img/our-work-09.png";
+import Image from "next/image";
+import Marquee from "react-fast-marquee";
+import RevealWrapper from "../animation/RevealWrapper";
+import TextAppearAnimation from "../animation/TextAppearAnimation";
 
 const WORK_IMAGES = [
-  { id: 1, src: image01, alt: 'Client Logo 1' },
-  { id: 2, src: image02, alt: 'Client Logo 2' },
-  { id: 3, src: image03, alt: 'Client Logo 3' },
-  { id: 4, src: image04, alt: 'Client Logo 4' },
-  { id: 5, src: image05, alt: 'Client Logo 5' },
-  { id: 6, src: image06, alt: 'Client Logo 6' },
-  { id: 7, src: image07, alt: 'Client Logo 7' },
-  { id: 8, src: image08, alt: 'Client Logo 8' },
-  { id: 9, src: image09, alt: 'Client Logo 9' },
-]
+  { id: 1, src: image01, alt: "Client Logo 1" },
+  { id: 2, src: image02, alt: "Client Logo 2" },
+  { id: 3, src: image03, alt: "Client Logo 3" },
+  { id: 4, src: image04, alt: "Client Logo 4" },
+  { id: 5, src: image05, alt: "Client Logo 5" },
+  { id: 6, src: image06, alt: "Client Logo 6" },
+  { id: 7, src: image07, alt: "Client Logo 7" },
+  { id: 8, src: image08, alt: "Client Logo 8" },
+  { id: 9, src: image09, alt: "Client Logo 9" },
+];
 
 const OurWork = () => {
   return (
@@ -33,7 +33,7 @@ const OurWork = () => {
             <span className="rv-badge-text">Our Work</span>
           </RevealWrapper>
           <TextAppearAnimation>
-            <h2 className="text-appear mx-auto max-w-[770px]">We craft emotionally engaging stories.</h2>
+            <h2 className="text-appear mx-auto max-w-[770px]">Секој проект го градиме внимателно, со почит кон просторот, светлината и начинот на живеење.</h2>
           </TextAppearAnimation>
         </div>
       </div>
@@ -62,7 +62,7 @@ const OurWork = () => {
         </Marquee>
       </RevealWrapper>
     </section>
-  )
-}
+  );
+};
 
-export default OurWork
+export default OurWork;
